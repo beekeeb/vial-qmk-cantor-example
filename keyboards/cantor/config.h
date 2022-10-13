@@ -24,10 +24,10 @@
 
 /* Top left key on left half */
 #define BOOTMAGIC_LITE_ROW    0
-#define BOOTMAGIC_LITE_COLUMN 0
+#define BOOTMAGIC_LITE_COLUMN 5
 /* Top right key on right half */
 #define BOOTMAGIC_LITE_ROW_RIGHT    4
-#define BOOTMAGIC_LITE_COLUMN_RIGHT 5
+#define BOOTMAGIC_LITE_COLUMN_RIGHT 0
 
 /*
  * Feature disable options
@@ -39,6 +39,8 @@
 
 /* disable print */
 //#define NO_PRINT
+
+#define DEBOUNCE 5
 
 /* disable action features */
 //#define NO_ACTION_LAYER
